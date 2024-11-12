@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leslie Digsby">
+    <meta name="description" content="Random password generator">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Password, 
+                                generator, passowrd generator, random">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Password Generator</h1>
+        <p class="p1">Customize your password:</p>
+
+        <div class="sliderContainer">
+            <input type="range" min="1" max="50" value="12" class="slider" id="mySlider">
+            <p>Password Length: <span id="myRange"></span></p>
+        </div>
+
+        <label for="passwordOptions">Lower Case:</label>
+        <input type="checkbox" id="lowerCase"><br>
+
+        <label for="passwordOptions">Upper Case:</label>
+        <input type="checkbox" id="upperCase"><br>
+
+        <label for="passwordOptions">Numbers:</label>
+        <input type="checkbox" id="numbers"><br>
+
+        <label for="passwordOptions">Symbols:</label>
+        <input type="checkbox" id="symbols"><br>
+
+        <button type="button">Get Password</button>
+
+        <p>Your Password:</p>
+        <p id="passwordResult"></p>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

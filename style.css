@@ -1,0 +1,41 @@
+
+#container {
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(171, 171, 171);
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.657);
+}
+
+.p1 {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+button:active {
+    background-color: rgb(230, 230, 230);
+}
+
+h1 {
+    font-size: 1.8em;
+    color: rgb(47, 47, 47);
+}
+
+label {
+    font-size: 1.2em;
+}
